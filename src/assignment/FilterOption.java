@@ -21,8 +21,8 @@ public class FilterOption {
 		Thread.sleep(2000);
 	
 		WebElement locationInput = driver.findElement(By.xpath("//input[@class='_1xq16jy']"));
-		System.out.println(locationInput.getAttribute("placeholder"));
-		//locationInput.click();
+		//System.out.println(locationInput.getAttribute("placeholder"));
+		locationInput.click();
 		locationInput.sendKeys("Blue");
 		Thread.sleep(2000);
 		Actions ac = new Actions(driver);
@@ -53,7 +53,7 @@ public class FilterOption {
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[@class='_seuyf']//div[@class='_uh2dzp' and text()='Add guests']")).click();
 		driver.findElement(By.xpath("//div[@data-testid='search-block-filter-stepper-row-stepper-adults']//div[@class='_3zlfom']//button[@class='_7hhhl3' and @aria-label='increase value']")).click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[@class='_m9v25n']")).click();
 		Thread.sleep(5000);
 		
