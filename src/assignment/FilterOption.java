@@ -53,7 +53,7 @@ public class FilterOption {
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[@class='_seuyf']//div[@class='_uh2dzp' and text()='Add guests']")).click();
 		driver.findElement(By.xpath("//div[@data-testid='search-block-filter-stepper-row-stepper-adults']//div[@class='_3zlfom']//button[@class='_7hhhl3' and @aria-label='increase value']")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//span[@class='_m9v25n']")).click();
 		Thread.sleep(5000);
 		
